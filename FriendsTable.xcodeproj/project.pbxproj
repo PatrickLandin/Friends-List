@@ -14,6 +14,7 @@
 		EC75D3F61A3247CF00B602AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC75D3F41A3247CF00B602AC /* LaunchScreen.xib */; };
 		EC75D4021A3247CF00B602AC /* FriendsTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75D4011A3247CF00B602AC /* FriendsTableTests.swift */; };
 		EC75D40C1A324B2A00B602AC /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75D40B1A324B2A00B602AC /* Friend.swift */; };
+		EC75D4121A326A7200B602AC /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75D4111A326A7200B602AC /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		EC75D4001A3247CF00B602AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EC75D4011A3247CF00B602AC /* FriendsTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableTests.swift; sourceTree = "<group>"; };
 		EC75D40B1A324B2A00B602AC /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+		EC75D4111A326A7200B602AC /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			children = (
 				EC75D3EB1A3247CF00B602AC /* AppDelegate.swift */,
 				EC75D3ED1A3247CF00B602AC /* ViewController.swift */,
+				EC75D4111A326A7200B602AC /* DetailViewController.swift */,
 				EC75D40B1A324B2A00B602AC /* Friend.swift */,
 				EC75D3EF1A3247CF00B602AC /* Main.storyboard */,
 				EC75D3F21A3247CF00B602AC /* Images.xcassets */,
@@ -218,6 +221,7 @@
 				EC75D40C1A324B2A00B602AC /* Friend.swift in Sources */,
 				EC75D3EE1A3247CF00B602AC /* ViewController.swift in Sources */,
 				EC75D3EC1A3247CF00B602AC /* AppDelegate.swift in Sources */,
+				EC75D4121A326A7200B602AC /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -55,7 +55,7 @@
         <!--DetailViewController-->
         <scene sceneID="mZ0-vf-Lij">
             <objects>
-                <viewController title="DetailViewController" id="DiX-e8-4yd" sceneMemberID="viewController">
+                <viewController title="DetailViewController" id="DiX-e8-4yd" customClass="DetailViewController" customModule="FriendsTable" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="tHE-il-71A"/>
                         <viewControllerLayoutGuide type="bottom" id="Igx-CD-cIB"/>
@@ -64,24 +64,39 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdz-cW-RWD">
-                                <rect key="frame" x="198" y="266" width="205" height="67"/>
-                                <color key="backgroundColor" red="0.65589021380000001" green="1" blue="0.98591694080000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Patrick Landin" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sdz-cW-RWD">
+                                <rect key="frame" x="135" y="250" width="330" height="100"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="205" id="APn-sA-bzC"/>
-                                    <constraint firstAttribute="height" constant="67" id="cH4-Tg-xuy"/>
+                                    <constraint firstAttribute="width" constant="330" id="APn-sA-bzC"/>
+                                    <constraint firstAttribute="height" constant="100" id="cH4-Tg-xuy"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Zapfino" family="Zapfino" pointSize="30"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.65589021380000001" green="1" blue="0.98591694080000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <size key="shadowOffset" width="3" height="3"/>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Name Edit" borderStyle="roundedRect" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rtV-Ao-TIc">
+                                <rect key="frame" x="18" y="90" width="273" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="273" id="Szx-8M-XRH"/>
+                                    <constraint firstAttribute="height" constant="30" id="omO-aF-rQe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Thonburi" family="Thonburi" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="centerY" secondItem="sdz-cW-RWD" secondAttribute="centerY" id="U7C-Rf-WtA"/>
+                            <constraint firstItem="rtV-Ao-TIc" firstAttribute="leading" secondItem="tYT-7A-WhY" secondAttribute="leadingMargin" constant="2" id="cK8-dn-bho"/>
                             <constraint firstAttribute="centerX" secondItem="sdz-cW-RWD" secondAttribute="centerX" id="jKM-o6-Uaz"/>
+                            <constraint firstItem="rtV-Ao-TIc" firstAttribute="top" secondItem="tHE-il-71A" secondAttribute="bottom" constant="26" id="n6s-bD-byg"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="nameLabel" destination="sdz-cW-RWD" id="hLO-bp-cyg"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xgL-NJ-x9e" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

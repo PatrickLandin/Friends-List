@@ -23,6 +23,10 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         self.friendName = [tina, ryan]
         
+        var patrick = Friend()
+        patrick.name = "Patrick Landin"
+        self.friendName.append(patrick)
+        
         self.tableView.dataSource = self
         self.tableView.delegate = self
         
@@ -45,6 +49,15 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         cell.textLabel.text = friendToDisplay.name
         
         return cell
+    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        if segue.identifier == "SHOW_STUFF" {
+            let detailViewController = segue.destinationViewController as DetailViewController
+            let selectedIndexPath = self.tableView.indexPathForSelectedRow()
+            var nameToPass = self.friendName[selectedIndexPath!.row]
+            detailViewController.selectedFriend = nameToPass
+        }
     }
 
 }
