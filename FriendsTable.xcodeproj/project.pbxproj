@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC75D3EC1A3247CF00B602AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75D3EB1A3247CF00B602AC /* AppDelegate.swift */; };
+		EC75D3EE1A3247CF00B602AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75D3ED1A3247CF00B602AC /* ViewController.swift */; };
+		EC75D3F11A3247CF00B602AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC75D3EF1A3247CF00B602AC /* Main.storyboard */; };
+		EC75D3F31A3247CF00B602AC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC75D3F21A3247CF00B602AC /* Images.xcassets */; };
+		EC75D3F61A3247CF00B602AC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC75D3F41A3247CF00B602AC /* LaunchScreen.xib */; };
+		EC75D4021A3247CF00B602AC /* FriendsTableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75D4011A3247CF00B602AC /* FriendsTableTests.swift */; };
+		EC75D40C1A324B2A00B602AC /* Friend.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC75D40B1A324B2A00B602AC /* Friend.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC75D3FC1A3247CF00B602AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC75D3DE1A3247CF00B602AC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC75D3E51A3247CF00B602AC;
+			remoteInfo = FriendsTable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC75D3E61A3247CF00B602AC /* FriendsTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendsTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC75D3EA1A3247CF00B602AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC75D3EB1A3247CF00B602AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC75D3ED1A3247CF00B602AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EC75D3F01A3247CF00B602AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC75D3F21A3247CF00B602AC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC75D3F51A3247CF00B602AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC75D3FB1A3247CF00B602AC /* FriendsTableTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FriendsTableTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC75D4001A3247CF00B602AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC75D4011A3247CF00B602AC /* FriendsTableTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsTableTests.swift; sourceTree = "<group>"; };
+		EC75D40B1A324B2A00B602AC /* Friend.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Friend.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC75D3E31A3247CF00B602AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC75D3F81A3247CF00B602AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC75D3DD1A3247CF00B602AC = {
+			isa = PBXGroup;
+			children = (
+				EC75D3E81A3247CF00B602AC /* FriendsTable */,
+				EC75D3FE1A3247CF00B602AC /* FriendsTableTests */,
+				EC75D3E71A3247CF00B602AC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC75D3E71A3247CF00B602AC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC75D3E61A3247CF00B602AC /* FriendsTable.app */,
+				EC75D3FB1A3247CF00B602AC /* FriendsTableTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC75D3E81A3247CF00B602AC /* FriendsTable */ = {
+			isa = PBXGroup;
+			children = (
+				EC75D3EB1A3247CF00B602AC /* AppDelegate.swift */,
+				EC75D3ED1A3247CF00B602AC /* ViewController.swift */,
+				EC75D40B1A324B2A00B602AC /* Friend.swift */,
+				EC75D3EF1A3247CF00B602AC /* Main.storyboard */,
+				EC75D3F21A3247CF00B602AC /* Images.xcassets */,
+				EC75D3F41A3247CF00B602AC /* LaunchScreen.xib */,
+				EC75D3E91A3247CF00B602AC /* Supporting Files */,
+			);
+			path = FriendsTable;
+			sourceTree = "<group>";
+		};
+		EC75D3E91A3247CF00B602AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC75D3EA1A3247CF00B602AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC75D3FE1A3247CF00B602AC /* FriendsTableTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC75D4011A3247CF00B602AC /* FriendsTableTests.swift */,
+				EC75D3FF1A3247CF00B602AC /* Supporting Files */,
+			);
+			path = FriendsTableTests;
+			sourceTree = "<group>";
+		};
+		EC75D3FF1A3247CF00B602AC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC75D4001A3247CF00B602AC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC75D3E51A3247CF00B602AC /* FriendsTable */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC75D4051A3247CF00B602AC /* Build configuration list for PBXNativeTarget "FriendsTable" */;
+			buildPhases = (
+				EC75D3E21A3247CF00B602AC /* Sources */,
+				EC75D3E31A3247CF00B602AC /* Frameworks */,
+				EC75D3E41A3247CF00B602AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FriendsTable;
+			productName = FriendsTable;
+			productReference = EC75D3E61A3247CF00B602AC /* FriendsTable.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC75D3FA1A3247CF00B602AC /* FriendsTableTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC75D4081A3247CF00B602AC /* Build configuration list for PBXNativeTarget "FriendsTableTests" */;
+			buildPhases = (
+				EC75D3F71A3247CF00B602AC /* Sources */,
+				EC75D3F81A3247CF00B602AC /* Frameworks */,
+				EC75D3F91A3247CF00B602AC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC75D3FD1A3247CF00B602AC /* PBXTargetDependency */,
+			);
+			name = FriendsTableTests;
+			productName = FriendsTableTests;
+			productReference = EC75D3FB1A3247CF00B602AC /* FriendsTableTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC75D3DE1A3247CF00B602AC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Patrick Landin";
+				TargetAttributes = {
+					EC75D3E51A3247CF00B602AC = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					EC75D3FA1A3247CF00B602AC = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = EC75D3E51A3247CF00B602AC;
+					};
+				};
+			};
+			buildConfigurationList = EC75D3E11A3247CF00B602AC /* Build configuration list for PBXProject "FriendsTable" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC75D3DD1A3247CF00B602AC;
+			productRefGroup = EC75D3E71A3247CF00B602AC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC75D3E51A3247CF00B602AC /* FriendsTable */,
+				EC75D3FA1A3247CF00B602AC /* FriendsTableTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC75D3E41A3247CF00B602AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC75D3F11A3247CF00B602AC /* Main.storyboard in Resources */,
+				EC75D3F61A3247CF00B602AC /* LaunchScreen.xib in Resources */,
+				EC75D3F31A3247CF00B602AC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC75D3F91A3247CF00B602AC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC75D3E21A3247CF00B602AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC75D40C1A324B2A00B602AC /* Friend.swift in Sources */,
+				EC75D3EE1A3247CF00B602AC /* ViewController.swift in Sources */,
+				EC75D3EC1A3247CF00B602AC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC75D3F71A3247CF00B602AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC75D4021A3247CF00B602AC /* FriendsTableTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC75D3FD1A3247CF00B602AC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC75D3E51A3247CF00B602AC /* FriendsTable */;
+			targetProxy = EC75D3FC1A3247CF00B602AC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC75D3EF1A3247CF00B602AC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC75D3F01A3247CF00B602AC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC75D3F41A3247CF00B602AC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC75D3F51A3247CF00B602AC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC75D4031A3247CF00B602AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC75D4041A3247CF00B602AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC75D4061A3247CF00B602AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FriendsTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC75D4071A3247CF00B602AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FriendsTable/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC75D4091A3247CF00B602AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FriendsTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsTable.app/FriendsTable";
+			};
+			name = Debug;
+		};
+		EC75D40A1A3247CF00B602AC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = FriendsTableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FriendsTable.app/FriendsTable";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC75D3E11A3247CF00B602AC /* Build configuration list for PBXProject "FriendsTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC75D4031A3247CF00B602AC /* Debug */,
+				EC75D4041A3247CF00B602AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC75D4051A3247CF00B602AC /* Build configuration list for PBXNativeTarget "FriendsTable" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC75D4061A3247CF00B602AC /* Debug */,
+				EC75D4071A3247CF00B602AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC75D4081A3247CF00B602AC /* Build configuration list for PBXNativeTarget "FriendsTableTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC75D4091A3247CF00B602AC /* Debug */,
+				EC75D40A1A3247CF00B602AC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC75D3DE1A3247CF00B602AC /* Project object */;
+}
