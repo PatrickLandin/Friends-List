@@ -1,0 +1,1 @@
+Simple tableview and segue app. Click on a name in the cell and see the signature of that name in the Detail View Controller.

@@ -31,7 +31,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         self.tableView.delegate = self
         
         // Do any additional setup after loading the view, typically from a nib.
-    }
+    } //viewdidload
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
